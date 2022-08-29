@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# COVI AWAY WEBSITE
+A website that is an online newspaper and forum where users can access categories of filtered, organized information, while being able to share their knowledge and experience relating to the pandemic to other people. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Group Github repo: 
+* Here is a working live demo: https://covi-away.herokuapp.com
 
-## Available Scripts
+Contents
+========
 
-In the project directory, you can run:
+ * [Why?](#why)
+ * [Technologies](#technologies)
+ * [Usage?](#usage)
+ * [Mobile Support?](#mobile-support)
+ * [Instructions?](#instructions)
+ * [Testing?](#testing)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Why?
+---
+I wanted a webpage that allows you to:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
++ Updating all information about the pandemic in both Vietnam along with the world on-going news
++ A webpage that displays statistics of Covidn-19 cases
++ Solve all your curiosity related to the pandemic 
++ Access easily to a forum platform interacting with people and social media
++ Freely uploading your thought as a post to a forum 
 
-### `npm test`
+And is incredibly fault tolerant and user-protective.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`covi-away` is the only webpage that checks all of those boxes.
 
-### `npm run build`
+### Technologies
+---
+* GitHub
+* Figma
+* Visual Studio Code
+* Bootstrap
+* NodeJS
+* ReactJS
+* MongoDB
+* Heroku
+* AWS S3
+* SendinBlue
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###  Mobile Support 
+---
+The Covi-Away webiste is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instructions  
+---
+# Steps to run the webpage on your local machine:
+* Backend: cd backend -> npm install -> nodemon index.js/ npm run dev/ node index.js 
+* Frontend: cd frontend -> npm install -> npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# The loading speed of the database sometimes encounters slowliness so what the user can do are:
+* Wait for some seconds for the function to redirect and if the waiting time extends then mannually reload the page, same goes for when uploading photo file.
+* For the displaying information of the webpage, if the user encounters same situation mentioned above, just gently reload the page will solve the problem.
+* In case the database cannot connect, and you want to change connection, the backup data is store in the backUpData folder for you to import to Mongodb
 
-### `npm run eject`
+### Testing
+---
+## Account for testing:
+# 3 roles (reporter, admin, user): 
+* Username: giangle306
+* Password: abc1234!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# 2 roles (reporter, user): 
+* Username: davidle345
+* Password: abc1234!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 2 roles (admin, user): 
+* Username: harryliu2345
+* Password: abc1234!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# 1 role (user): 
+* Username: gigihadid234
+* Password: abc1234!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

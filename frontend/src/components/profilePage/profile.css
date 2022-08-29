@@ -1,0 +1,9 @@
+.posts {
+  width: 60%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.post:hover {
+  border: 3px solid red;
+}
